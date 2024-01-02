@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github,linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,11 +44,11 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Ashwin VK
+            Ashwin VK 
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-6'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -60,6 +60,8 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li><a href="https://github.com/ashvn24" target="_blank"><img src={github} alt="github" className="w-7 h-7 cursor-pointer" /></a></li>
+          <li><a href="https://www.linkedin.com/in/ashwin-vk-6919b6232/" target="_blank"><img src={linkedin} alt="github" className="w-7 h-7 cursor-pointer " /></a></li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -90,6 +92,8 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li><a href="https://github.com/ashvn24" target="_blank"><img src={github} alt="github" className="w-7 h-7 cursor-pointer" /></a></li>
+          <li><a href="https://www.linkedin.com/in/ashwin-vk-6919b6232/" target="_blank"><img src={linkedin} alt="github" className="w-7 h-7 cursor-pointer " /></a></li>
             </ul>
           </div>
         </div>
