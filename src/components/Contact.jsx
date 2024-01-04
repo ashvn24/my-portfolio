@@ -27,14 +27,25 @@ const Contact = () => {
     });
   };
 
+
+  
+ 
+
   const handleSubmit = (e) => {
     e.preventDefault();
+  
+    // Check if required fields are empty
+    if (form.name.trim() === '' || form.email.trim() === '' || form.message.trim() === '') {
+      alert('Please fill in all required fields.');
+      return;
+    }
+  
     setLoading(true);
-
+  
     emailjs
       .send(
         'service_5iqlj0q',
-        'template_tacxsj5'  ,
+        'template_tacxsj5',
         {
           from_name: form.name,
           to_name: "Ashwin vk",
@@ -48,7 +59,7 @@ const Contact = () => {
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
+  
           setForm({
             name: "",
             email: "",
@@ -58,11 +69,12 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
+  
           alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
+  
 
   return (
     <div
