@@ -28,10 +28,12 @@ import brototype from "./company/brototype.png";
 
 
 import ruby from './ruby.jpeg'
+import colab from './colab.jpg'
 
 export {
   linkedin,
   ruby,
+  colab,
   postgres,
   jenkins,
   django,
