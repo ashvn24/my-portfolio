@@ -21,6 +21,8 @@ import {
   postgres,
   ruby,
   colab,
+  inventory,
+  file
 } from "../assets";
 
 export const navLinks = [
@@ -194,6 +196,50 @@ const projects = [
     ],
     image: colab,
     source_code_link: "https://github.com/ashvn24/CoLab-backend.git",
+  },
+  {
+    name: "Inventory Management",
+    description:
+    "Inventory Management System! Features include stock, order, and user management, Celery automation, JWT authentication, Docker deployment, and tested APIs for reliability.",
+      tags: [
+      {
+        name: "Django REST api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Celery",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: inventory,
+    source_code_link: "https://github.com/ashvn24/Inventory_management.git",
+  },
+  {
+    name: "File Management",
+    description:
+    "Our Dockerized File Management System offers efficient organization and deployment. Manage folders and files seamlessly, simplifying workflow with Docker integration.",
+      tags: [
+      {
+        name: "Django REST api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Signals",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: file,
+    source_code_link: "https://github.com/ashvn24/file_managemet_app.git",
   },
   
 ];
