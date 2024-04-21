@@ -22,7 +22,8 @@ import {
   ruby,
   colab,
   inventory,
-  file
+  file,
+  pass
 } from "../assets";
 
 export const navLinks = [
@@ -175,7 +176,7 @@ const projects = [
   {
     name: "COLAB",
     description:
-    "Introducing Colab: a cutting-edge collaboration platform, crafted with Django REST and React. Simplifying content creation, it enables seamless file sharing, real-time communication, and automated YouTube uploads. ",
+    "Colab- Simplifying content creation, it enables seamless file sharing, real-time communication, and automated YouTube uploads. ",
       tags: [
       {
         name: "Django REST api",
@@ -200,7 +201,7 @@ const projects = [
   {
     name: "Inventory Management",
     description:
-    "Inventory Management System! Features include stock, order, and user management, Celery automation, JWT authentication, Docker deployment, and tested APIs for reliability.",
+    "Features include stock, order, and user management, Celery automation, JWT authentication, Docker deployment, and tested APIs for reliability.",
       tags: [
       {
         name: "Django REST api",
@@ -222,7 +223,7 @@ const projects = [
   {
     name: "File Management",
     description:
-    "Our Dockerized File Management System offers efficient organization and deployment. Manage folders and files seamlessly, simplifying workflow with Docker integration.",
+    "File Management System offers efficient organization and deployment. Manage folders and files seamlessly, simplifying workflow with Docker integration.",
       tags: [
       {
         name: "Django REST api",
@@ -240,6 +241,28 @@ const projects = [
     ],
     image: file,
     source_code_link: "https://github.com/ashvn24/file_managemet_app.git",
+  },
+  {
+    name: "Password Generator",
+    description:
+    "React frontend and Django REST backend collaborate to generate personalized, 12-digit strong passwords, ensuring security and customization.",
+      tags: [
+      {
+        name: "Django REST api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: pass,
+    source_code_link: "https://github.com/ashvn24/password-backend.git",
   },
   
 ];

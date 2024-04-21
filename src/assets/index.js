@@ -31,8 +31,10 @@ import ruby from './ruby.jpeg'
 import colab from './colab.jpg'
 import inventory from './inventory.png'
 import file from './file.jpg'
+import pass from './password.png'
 
 export {
+  pass,
   file,
   inventory,
   linkedin,
