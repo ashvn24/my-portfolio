@@ -29,8 +29,12 @@ import brototype from "./company/brototype.png";
 
 import ruby from './ruby.jpeg'
 import colab from './colab.jpg'
+import inventory from './inventory.png'
+import file from './file.jpg'
 
 export {
+  file,
+  inventory,
   linkedin,
   ruby,
   colab,
