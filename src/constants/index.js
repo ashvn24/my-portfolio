@@ -23,7 +23,8 @@ import {
   colab,
   inventory,
   file,
-  pass
+  pass,
+  anam,
 } from "../assets";
 
 export const navLinks = [
@@ -179,7 +180,7 @@ const projects = [
     "Colab- Simplifying content creation, it enables seamless file sharing, real-time communication, and automated YouTube uploads. ",
       tags: [
       {
-        name: "Django REST api",
+        name: "Django REST",
         color: "blue-text-gradient",
       },
       {
@@ -204,7 +205,7 @@ const projects = [
     "Features include stock, order, and user management, Celery automation, JWT authentication, Docker deployment, and tested APIs for reliability.",
       tags: [
       {
-        name: "Django REST api",
+        name: "Django REST",
         color: "blue-text-gradient",
       },
       {
@@ -226,7 +227,7 @@ const projects = [
     "File Management System offers efficient organization and deployment. Manage folders and files seamlessly, simplifying workflow with Docker integration.",
       tags: [
       {
-        name: "Django REST api",
+        name: "Django REST ",
         color: "blue-text-gradient",
       },
       {
@@ -248,7 +249,7 @@ const projects = [
     "React frontend and Django REST backend collaborate to generate personalized, 12-digit strong passwords, ensuring security and customization.",
       tags: [
       {
-        name: "Django REST api",
+        name: "Django REST",
         color: "blue-text-gradient",
       },
       {
@@ -263,6 +264,28 @@ const projects = [
     ],
     image: pass,
     source_code_link: "https://github.com/ashvn24/password-backend.git",
+  },
+  {
+    name: "Appointment Booking",
+    description:
+    "Developed a sleek appointment booking website for a salon business, enabling live bookings and efficient user management. Deployed on AWS.",
+      tags: [
+      {
+        name: "Django REST",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Celery",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: anam,
+    source_code_link: "https://github.com/ashvn24/An_amis-freelance.git",
   },
   
 ];

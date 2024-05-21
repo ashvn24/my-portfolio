@@ -32,8 +32,10 @@ import colab from './colab.jpg'
 import inventory from './inventory.png'
 import file from './file.jpg'
 import pass from './password.png'
+import anam from './anam.png'
 
 export {
+  anam,
   pass,
   file,
   inventory,
